@@ -1,6 +1,6 @@
 (function() {
   $(function() {
-    var $oldLine, $viewport, delay, lastChangeTime, lines, 
+    var $oldLine, $word, delay, lastChangeTime, lines, 
     $word = $('#word');
     lines = $.makeArray($word.children());
     $oldLine = null;
