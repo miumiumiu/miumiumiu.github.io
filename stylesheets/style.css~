@@ -22,6 +22,7 @@ body
 	padding-top:10px;
 	display:inline-block;
 	background-image:url(/images/background.gif);
+  background-repeat:no-repeat;
 	min-width:100%;
 	min-height:100%;
 	text-align:center
@@ -29,6 +30,7 @@ body
 
 #viewport
 {
+	padding-left:100px;
 	position:relative;
 	width:960px;
 	height:640px;
@@ -71,6 +73,6 @@ body
 	color:#ff0;
 	position:absolute;
 	z-index:1500;
-	top:0;
-	left:0
+	top:200px;
+	left:-100px
 }
