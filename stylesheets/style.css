@@ -29,15 +29,17 @@ body
 
 #viewport
 {
-	padding-left:100px;
+	padding-left:200px;
+	padding-top:100px;
 	position:relative;
 	width:960px;
 	height:640px;
 	vertical-align:middle;
 	font-family:"Meng";
-	font-size:30px;
+	font-size:40px;
+	color:#734D99;
   text-align:center;
-	text-shadow:2px 2px 2px #fff
+	text-shadow:5px 5px 5px #916DB6
 }
 
 #viewport>*
@@ -67,12 +69,11 @@ body
 #title
 {
 	width:100%;
-	min-width:800px;
 	font-family:"Love";
 	font-size:60px;
-	color:#ff0;
+	color:#52A3A3;
 	position:absolute;
 	z-index:1500;
-	top:200px;
-	left:-100px
+	top:20px;
+	left:500px
 }
