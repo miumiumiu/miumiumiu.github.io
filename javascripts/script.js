@@ -1,8 +1,8 @@
 (function() {
   $(function() {
-    var $oldLine, $viewport, delay, lastChangeTime, lines, 
-    $viewport = $('#viewport');
-    lines = $.makeArray($viewport.children());
+    var $oldLine, $word, delay, lastChangeTime, lines, 
+    $word = $('#word');
+    lines = $.makeArray($word.children());
     $oldLine = null;
     lastChangeTime = null;
     delay = 2000;
@@ -27,7 +27,7 @@
         }
       }, 50);
     }, 100);
-    return $viewport.click(function() {
+    return $word.click(function() {
       if (new Date - lastChangeTime < delay) {
         return;
       }

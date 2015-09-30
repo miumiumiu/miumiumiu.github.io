@@ -21,10 +21,13 @@ body
 {
 	padding-top:10px;
 	display:inline-block;
-	background-image:url(/images/birthday_2.gif);
+	background-image:url(/images/background.gif);
 	min-width:100%;
 	min-height:100%;
-	text-align:center
+	text-align:center;
+	font-family:"Meng";
+	font-size:30px;
+	text-shadow:2px 2px 2px #fff
 }
 
 #viewport-container{
@@ -82,7 +85,7 @@ body
 	font-size:60px;
 	color:#ff0;
 	position:absolute;
-	z-index:999;
+	z-index:1500;
 	top:0;
 	left:0
 }
