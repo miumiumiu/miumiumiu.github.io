@@ -1,7 +1,13 @@
 @font-face
 {
-	font-family:DjbDoodlieBeans;
-	src:url(/fonts/djb_doodlie_beans.ttf)
+	font-family:Love;
+	src:url(/fonts/love.ttf)
+}
+
+@font-face
+{
+	font-family:Meng;
+	src:url(/fonts/meng.ttf)
 }
 
 body
@@ -22,27 +28,26 @@ body
 }
 
 #viewport-container{
-	background:#fff;
+	background:#CCCCFF;
 	display:inline-block;
 	padding:30px;
-	border:1px solid purple;
+	border:1px solid #CCCCFF;
 	border-radius:10px;
-	box-shadow:5px 5px 5px gray
 }
 
 #viewport
 {
 	position:relative;
-	border:1px solid purple;
-	width:640px;
-	height:480px;
+	width:960px;
+	height:640px;
 	vertical-align:middle;
+	font-family:"Meng";
 	font-size:30px;
 	text-shadow:2px 2px 2px #fff;
-	background:-webkit-linear-gradient(#ffb6c1, #ffe6f1);
-	background:-o-linear-gradient(#ffb6c1, #ffe6f1);
-	background:-moz-linear-gradient(#ffb6c1, #ffe6f1);
-	background:linear-gradient(#ffb6c1, #ffe6f1)
+	background:-webkit-linear-gradient(#E5FFFF, #CCFEFF);
+	background:-o-linear-gradient(#E5FFFF, #CCFEFF);
+	background:-moz-linear-gradient(#E5FFFF, #CCFEFF);
+	background:linear-gradient(#E5FFFF, #CCFEFF)
 }
 
 #viewport>*
@@ -54,8 +59,8 @@ body
 
 #viewport>div
 {
-	width:640px;
-	line-height:480px
+	width:960px;
+	line-height:640px;
 }
 
 #viewport>img
@@ -73,9 +78,8 @@ body
 {
 	width:100%;
 	min-width:800px;
-	font-family:"DjbDoodlieBeans";
+	font-family:"Love";
 	font-size:60px;
-	text-shadow:-1px 0 purple,0 1px purple,1px 0 purple,0 -1px purple;
 	color:#ff0;
 	position:absolute;
 	z-index:999;

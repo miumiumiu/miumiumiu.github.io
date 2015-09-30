@@ -1,6 +1,7 @@
 (function() {
   $(function() {
-    var $oldLine, $viewport, delay, lastChangeTime, lines, 
+    var $oldLine, $viewport, delay, lastChangeTime, lines, next;
+    $('#bgmusic')[0].play();
     $viewport = $('#viewport');
     lines = $.makeArray($viewport.children());
     $oldLine = null;
